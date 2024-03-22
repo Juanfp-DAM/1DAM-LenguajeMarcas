@@ -1,0 +1,16 @@
+header{
+    background-color: blue;
+    display:grid;
+    place-items: center;
+}
+
+#titulo{
+    display:grid;
+    place-items:center;
+    color: aqua;
+}
+main{
+    background-color: darkkhaki;
+    display:grid;
+    place-items: center;
+}

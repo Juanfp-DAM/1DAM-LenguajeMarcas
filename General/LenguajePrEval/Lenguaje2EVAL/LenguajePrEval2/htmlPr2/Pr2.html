@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cssPr2/Pr2.css">
+    <title>CalculadoraPr2</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">CALCULADORA</h1>
+    </header>
+
+
+
+    <main>
+        <div id="calculos">
+            <!--Para calcular el factorial-->
+            <label for="calculaN">
+                <input id="n" type="number" placeholder="Introduce N">
+            <button type="submit" value="Factorial" onclick="factorial()">n!</button>
+            <p id="resultadoFactorial">Resultado</p>
+
+            <!--Para calcular la potencia-->
+            <label for="calculaX">
+                <input id="x" type="number" placeholder="Introduce Número"></label>
+            <button type="submit" value="Potencia" onclick="potencia()">Potencia</button>
+            <p id="resultadoPotencia">Resultado</p>
+
+            <p>Calculamos el coseno de los numeros introducidos:</p>
+            <button type="submit" value="coseno" onclick="sumatorio()">Quiero Coseno!</button>
+            <p id="resultadoCoseno"></p>
+
+        </div>
+
+        
+    </main>
+</body>
+<script src="../jsPr2/Pr2.js"></script>
+
+</html>
